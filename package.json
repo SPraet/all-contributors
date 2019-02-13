@@ -11,7 +11,7 @@
     "postinstall": "node index.js",
     "semantic-release": "semantic-release",
     "start": "cd website && ../node_modules/.bin/docusaurus-start",
-    "build": "cd website && ../node_modules/.bin/docusaurus-build",
+    "build": "./node_modules/.bin/docusaurus-build",
     "write-translations": "cd website && ../node_modules/.bin/docusaurus-write-translations",
     "crowdin-upload": "crowdin --config crowdin.yaml upload sources --auto-update -b master",
     "crowdin-download": "crowdin --config crowdin.yaml download -b master",
